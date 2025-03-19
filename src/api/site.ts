@@ -18,7 +18,7 @@ const baseUrl = process.env.NEXT_PUBLIC_BASE_API;  // Certifique-se de que está
 
 export const getEvent = async (id: number): Promise<Event | false> => {
   try {
-    const json = await req.get(`${url}/events/${id}`);  // Chamada para http://localhost:4000/events/${id}
+    const json = await req.get(`${url}/event/${id}`);  // Chamada para http://localhost:4000/events/${id}
     console.log(json);
     return json.data.event as Event ?? false;
   } catch (error) {

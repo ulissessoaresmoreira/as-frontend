@@ -1,0 +1,1 @@
+export type ModalScreens = null | 'searchEvent' | 'newEvent' | 'eventList' | 'profile' | 'edit';

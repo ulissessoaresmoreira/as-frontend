@@ -1,7 +1,16 @@
+
+// import { LoginForm } from '@/components/auth/signin-form';
+import React from 'react';
+
+
+
 const Page = () => {
   return (
-    <div>
-      <h1 className="text-center text-4xl my-3">HOME Amigo Secreto</h1>
+    <div 
+    className="flex items-center justify-center h-screen bg-red-100 relative bg-cover bg-center"
+    style={{ backgroundImage: "url('/capa.jpeg')" }}
+    >
+
     </div>
   );
 }

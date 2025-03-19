@@ -4,4 +4,7 @@ export type Event = {
   title: string;
   description: string;
   grouped: boolean;
+  id_admin: number;
+  date: string;
+  password: string;
 }
